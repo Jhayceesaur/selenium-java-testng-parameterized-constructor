@@ -4,7 +4,7 @@ public class ReusableMethods
 {
 	int a;
 	
-	public ReusableMethods(int a) 
+	public ReusableMethods(int a) //Default constructor
 	{
 		this.a=a;
 	}
