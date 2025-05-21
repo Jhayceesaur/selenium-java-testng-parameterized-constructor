@@ -20,5 +20,4 @@ public class ReusableMethods
 		a = a-1;
 		return a;
 	}
-
 }
