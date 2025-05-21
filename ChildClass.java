@@ -4,8 +4,6 @@ import org.testng.annotations.Test;
 
 public class ChildClass extends ParentClass
 {
-	
-	
 	@Test
 	public void testRun()
 	{
@@ -17,7 +15,5 @@ public class ChildClass extends ParentClass
 		doThis(); //You need to use "extends" to call the method from another class (from ParentClass)
 		System.out.println(rm.increment());
 		System.out.println(rm.decrement());
-	}
-		
-		
+	}		
 }
